@@ -38,6 +38,7 @@ find_package(OpenCV 4.5.1 REQUIRED)
 # там же сразу стоит добавить в дополнению к Debug сборке - сборку с включенными оптимизациями и отладочными символами - RelWithDebInfo
 
 set(SOURCES
+        src/phg/sift/sift.cpp
         src/phg/sift/sift.h
         )
 

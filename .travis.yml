@@ -18,4 +18,5 @@ script:
   - cd build
   - cmake -DCMAKE_BUILD_TYPE=RELWITHDEBINFO ..
   - make -j12
-  - ./test_sift
+  - cd ..
+  - ./build/test_sift

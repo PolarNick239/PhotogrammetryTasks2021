@@ -112,11 +112,11 @@ void evaluateDetection(const cv::Mat &M, double minRecall, cv::Mat img0=cv::Mat(
                 detector->compute(img0, kps0, desc0);
                 detector->compute(img1, kps1, desc1);
             } else if (method == 2) {
-                // TODO
+                // TODO remove 'return' and uncomment
                 return;
 //                method_name = "SIFT_MY";
 //                log_prefix = "[SIFT_MY] ";
-//                SIFT mySIFT;
+//                phg::SIFT mySIFT;
 //                mySIFT.detectAndCompute(img0, kps0, desc0);
 //                mySIFT.detectAndCompute(img1, kps1, desc1);
             } else {
